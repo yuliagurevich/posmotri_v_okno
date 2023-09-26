@@ -64,6 +64,7 @@ ol {
 
 .result__video-container {
   position: relative;
+  margin-bottom: 11px;
 }
 
 .result__video {
@@ -71,7 +72,6 @@ ol {
   height: 386px;
   object-fit: cover;
   object-position: center;
-  margin-bottom: 11px;
 }
 
 .search-form {
