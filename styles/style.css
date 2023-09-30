@@ -131,7 +131,7 @@ ol {
   gap: 15px;
 }
 
-.search-form__label:has(:focus-visible) {
+.search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
@@ -222,6 +222,7 @@ ol {
   position: relative;
   block-size: 298px;
   overflow: auto;
+  scrollbar-width: none;
   padding: 2px;
 }
 
